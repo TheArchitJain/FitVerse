@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(gym.jpg);
+    background-size: cover;
+}
+.navbar{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 17px 16px;
+    padding: 10px;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    background-color: black;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: azure;
+}
+.search{
+    float: right;
+    padding: 20px 60px;
+    font-size: 20px;
+}
+.navbar input{
+    border: 10px solid white;
+    border-radius: 22px;
+}
